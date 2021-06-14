@@ -104,6 +104,7 @@ class _MyAppState extends State<MyApp> {
                   borderSide: BorderSide(
                     color: Color(0xFF9FA0A5),
                   ),
+                  borderRadius: BorderRadius.circular(24.0)
                 ),
               ),
             ),

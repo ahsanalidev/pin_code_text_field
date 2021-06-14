@@ -365,6 +365,8 @@ class PinCodeTextFieldState extends State<PinCodeTextField>
         color: Colors.transparent,
         width: 0.0,
       ),
+      borderRadius: BorderRadius.circular(24.0)
+
     );
     return Container(
       width: _width,
@@ -561,6 +563,7 @@ class PinCodeTextFieldState extends State<PinCodeTextField>
             decoration: widget.hasUnderline
                 ? BoxDecoration(
               border: Border(bottom: BorderSide(color: borderColor ?? Colors.black,),),
+              borderRadius: BorderRadius.circular(24.0)
             )
                 : null,
           ),
